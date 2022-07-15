@@ -1,0 +1,40 @@
+/*sobre mi*/
+
+section.about {
+    width: 85%;
+    margin: 0 auto;
+    background-color: rgb(233, 252, 252);
+    padding: 15px;
+    text-align: center;
+}
+
+
+/*skills*/
+
+section.skills {
+    position: relative;
+    width: 80%;
+    margin: 2em auto;
+}
+
+div.skills__line {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0 0 0 5%;
+}
+
+div.skills__box {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    margin: 5%;
+    text-align: center;
+}
+
+ul.hola {
+    margin: 25px 0;
+}

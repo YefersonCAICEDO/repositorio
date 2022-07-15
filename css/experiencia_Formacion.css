@@ -1,0 +1,73 @@
+/*formacion*/
+
+section.academic {
+    width: 80%;
+    margin: 0 auto;
+}
+
+div.academic__courses {
+    flex-wrap: wrap;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+/*experiencia*/
+
+section.experience {
+    width: 80%;
+    margin: 0 auto;
+    vertical-align: middle;
+}
+
+h2.experience__title {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 0 0 20px;
+    text-align: center;
+}
+
+img.experience__img {
+    width: 80%;
+    padding: 0 10%;
+}
+
+div.experience__info {
+    text-align: center;
+    margin: 20px 0 2em;
+}
+
+.experience__info-container {
+    text-align: center;
+    margin: 20px 0 2em;
+}
+
+div.experience__info-container {
+    width: 50%;
+    margin: 0 auto;
+}
+
+H3.experience__text {
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+div.experience__description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+button.experience__botao--demo {
+    background: rgb(252, 250, 250);
+    border-radius: 14px;
+    padding: 10px;
+    cursor: pointer;
+    margin-bottom: 30px;
+}
+
+button.experience__botao--demo:hover {
+    background: rgb(192, 191, 191);
+    transform: scale(1.2);
+}

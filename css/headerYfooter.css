@@ -1,0 +1,16 @@
+/*footer*/
+
+section.footer {
+    width: 90%;
+    margin: 0 auto;
+    padding: 30px;
+    text-align: center;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    height: 50px;
+}
+
+.img-footer {
+    margin-top: 10px;
+    width: 30px;
+}

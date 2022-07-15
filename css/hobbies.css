@@ -1,0 +1,30 @@
+/*hobbies*/
+
+section.hobbies {
+    width: 80%;
+    margin: 0 auto;
+    transform: translateY(0);
+    opacity: 1;
+}
+
+div.hobbies__line {
+    justify-content: space-around;
+    flex-wrap: wrap;
+    display: flex;
+    padding: 0 0 0 5%;
+}
+
+div.hobbies__box {
+    border-color: black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: 5%;
+}
+
+ul.hobbies__items {
+    margin: 25px 0;
+}
